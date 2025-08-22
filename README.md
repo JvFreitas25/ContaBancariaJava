@@ -25,4 +25,18 @@ public class ContaBancaria {
 		System.out.printf("Titular: %s%nSaldo: %.2f%n%n", titular, saldo);
 	}
 }
-```java
+package ClasseVsMetodos;
+
+public class ContaBancariaTeste {
+	public static void main(String[] args) {
+		
+		ContaBancaria conta1 = new ContaBancaria("Gabriel Silva Moraes",21.58);
+		
+		conta1.mostrarSaldo();
+		conta1.depositar(40.00);
+		conta1.mostrarSaldo();
+		conta1.sacar(15.50);
+		conta1.mostrarSaldo();
+	}
+}
+```
