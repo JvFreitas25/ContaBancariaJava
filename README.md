@@ -3,6 +3,7 @@ Montei esse código no intuito de parecer com um sistema de gestão em uma conta
 package ClasseVsMetodos;
 
 ```java
+package ClasseVsMetodos;
 public class ContaBancaria {
 	
 	String titular;
@@ -25,7 +26,6 @@ public class ContaBancaria {
 		System.out.printf("Titular: %s%nSaldo: %.2f%n%n", titular, saldo);
 	}
 }
-package ClasseVsMetodos;
 
 public class ContaBancariaTeste {
 	public static void main(String[] args) {
